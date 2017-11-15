@@ -117,3 +117,7 @@ alias wfclearsymcacheloc= 'rm -rf docker/data/wufoo/sf2/cache/loc/*'
 alias sudo='sudo '
 alias wfinacton="sed -i -e '/75.98.93.100/s/^#//g' /etc/hosts"
 alias wfinactoff="sed -i -e '/75.98.93.100/s/^#*/#/g' /etc/hosts"
+
+# Source virtualenvwrapper
+source /Users/michaellim/Library/Python/3.5/bin/virtualenvwrapper.sh
+export PATH="~/.local/bin:$PATH"
